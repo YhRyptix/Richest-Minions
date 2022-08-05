@@ -100,13 +100,22 @@
 
 
     if Swag == true then
+    
+    
+    GUI:Notification{
+    Title = "Debug Code 34",
+    Text = "Tweening...",
+    Duration = 1,
+    Callback = function() end
+}
+
 tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.98, Enum.EasingStyle.Linear)
   tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-2655.09033203125, 608.054931640625, 119.29881286621094)}):Play()
 wait(2.4)
 
 GUI:Notification{
-    Title = "Debug Code 34",
-    Text = "Restarting...",
+    Title = "Debug Code 355",
+    Text = "Picking up...",
     Duration = 1,
     Callback = function() end
 }
@@ -114,7 +123,7 @@ GUI:Notification{
 wait(1)
 GUI:Notification{
     Title = "Debug Code 35",
-    Text = "Restarting...",
+    Text = "Tweening...",
     Duration = 1,
     Callback = function() end
 }
@@ -123,14 +132,14 @@ tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.Humanoid
 wait(1)
 GUI:Notification{
     Title = "Debug Code 36",
-    Text = "Restarting...",
+    Text = "Picking up...",
     Duration = 1,
     Callback = function() end
 }
 wait(1)
 GUI:Notification{
     Title = "Debug Code 37",
-    Text = "Restarting...",
+    Text = "Tweening...",
     Duration = 1.5,
     Callback = function() end
 }
